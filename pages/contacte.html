@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <title>Inchiriere</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">
+        Dor.Iu
+        <i class="far fa-user logo"> </i> <i class="fas fa-user logo"></i>
+      </a>
+      <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+
+    <div class="page-container">
+      <aside id="side-menu">
+        <a href="../index.html">Home</a>
+        <a href="despre.html">Descriere apartament</a>
+        <a href="reguli.html">Reguli de cazare</a>
+        <a href="locatie.html">Locatie</a>
+        <a href="contacte.html">Contacte</a>
+        <a href="evenimente.html">Evenimente</a>
+        <a href="informatii.html">Informatii turistice</a>
+      </aside>
+      <main>
+        <h2 class="title">Contacte</h2>
+        <div class="row">
+          <div class="col-50">
+            <h3>Contacteaza-ne daca:</h3>
+            <ul class="contact-list">
+              <li>Cauti un apartament confortabil pentru trai</li>
+              <li>Ai obiechtii sau reclamatii</li>
+              <li>Ai sugestii, propuneri</li>
+            </ul>
+          </div>
+          <div class="col-50">
+            <h3>Date de contact</h3>
+            <ul class="contact-list">
+              <li><b>Adresa:</b> str. Milescu-Spataru, 9, ap. **</li>
+              <li><b>Telefon:</b> 069 xxx yyy</li>
+              <li><b>E-mail:</b> bunelu@gmal.com</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-50">
+            <iframe
+              class="map-contact"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2286.1796161445873!2d28.895453125122717!3d47.04531157708596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97df7cfeb91a9%3A0xbbdfa798b8487f6!2sNicolae%20Milescu%20Spa%CC%86taru%209!5e0!3m2!1sro!2s!4v1661245194693!5m2!1sro!2s"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col-50">
+            <div class="contact-form">
+              <form>
+                <h3 class="centered">Lasa un mesaj</h3>
+                <input type="text" placeholder="Nume" required />
+                <input type="email" placeholder="E-mail" required />
+                <textarea rows="3" placeholder="Mesaj" required></textarea>
+                <input type="submit" value="Transmite" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
