@@ -111,13 +111,6 @@ p {
   margin-top: 10px;
   display: inline-block;
 }
-.map {
-  display: block;
-  text-align: center;
-  border: solid 1px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 .iframe {
   display: block;
   border: solid 1px;
