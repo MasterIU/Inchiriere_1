@@ -118,11 +118,13 @@ p {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-iframe {
+.iframe {
   display: block;
   border: solid 1px;
   text-align: center;
   margin-left: 20px;
+  width: 818px;
+  height: 500px;
 }
 .intro-video {
   display: block;
